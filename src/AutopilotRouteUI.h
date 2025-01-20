@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////
-// C++ code generated with wxFormBuilder (version 3.10.1-0-g8feb16b3)
+// C++ code generated with wxFormBuilder (version 4.2.1-0-g80c4cb6)
 // http://www.wxformbuilder.org/
 //
 // PLEASE DO *NOT* EDIT THIS FILE!
@@ -35,7 +35,6 @@
 
 ///////////////////////////////////////////////////////////////////////////
 
-
 ///////////////////////////////////////////////////////////////////////////////
 /// Class PreferencesDialogBase
 ///////////////////////////////////////////////////////////////////////////////
@@ -53,13 +52,13 @@ class PreferencesDialogBase : public wxDialog
 		wxPanel* m_panel9;
 		wxChoicebook* m_cbRoutePositionBearingMode;
 		wxPanel* m_panel91;
-		wxStaticText* m_staticText74;
 		wxSpinCtrl* m_sRoutePositionBearingDistance;
+		wxStaticText* m_staticText74;
 		wxStaticText* m_staticText10;
 		wxSpinCtrl* m_sRoutePositionBearingMaxAngle;
 		wxPanel* m_panel10;
-		wxStaticText* m_staticText30;
 		wxSpinCtrl* m_sRoutePositionBearingTime;
+		wxStaticText* m_staticText30;
 		wxChoice* m_cRate;
 		wxStaticText* m_staticText13;
 		wxCheckBox* m_cbMagnetic;
@@ -68,9 +67,10 @@ class PreferencesDialogBase : public wxDialog
 		wxTextCtrl* m_tBoundary;
 		wxButton* m_button22;
 		wxStaticText* m_staticText71;
-		wxStaticText* m_staticText72;
 		wxSpinCtrl* m_sBoundaryWidth;
+		wxStaticText* m_staticText72;
 		wxCheckBox* m_cbConfirmBearingChange;
+		wxCheckBox* m_cbInterceptRoute;
 		wxChoice* m_cComputation;
 		wxCheckListBox* m_cbActiveRouteItems0;
 		wxCheckListBox* m_cbActiveRouteItems1;
